@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		7DF223AE2974F13200A8CD00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF223AD2974F13200A8CD00 /* AppDelegate.swift */; };
 		7DF223B02974F13200A8CD00 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF223AF2974F13200A8CD00 /* SceneDelegate.swift */; };
-		7DF223B22974F13200A8CD00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF223B12974F13200A8CD00 /* ViewController.swift */; };
-		7DF223B52974F13200A8CD00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DF223B32974F13200A8CD00 /* Main.storyboard */; };
 		7DF223B72974F13400A8CD00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DF223B62974F13400A8CD00 /* Assets.xcassets */; };
 		7DF223BA2974F13400A8CD00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DF223B82974F13400A8CD00 /* LaunchScreen.storyboard */; };
 		7DF223C52974F13500A8CD00 /* PlaletteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF223C42974F13500A8CD00 /* PlaletteTests.swift */; };
 		7DF223CF2974F13500A8CD00 /* PlaletteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF223CE2974F13500A8CD00 /* PlaletteUITests.swift */; };
 		7DF223D12974F13500A8CD00 /* PlaletteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF223D02974F13500A8CD00 /* PlaletteUITestsLaunchTests.swift */; };
+		7DF223DF2974F89B00A8CD00 /* PaletteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF223DD2974F89B00A8CD00 /* PaletteViewController.swift */; };
+		7DF223E02974F89B00A8CD00 /* PaletteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DF223DE2974F89B00A8CD00 /* PaletteViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +36,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7DF223AA2974F13200A8CD00 /* Plalette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plalette.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DF223AA2974F13200A8CD00 /* Palette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Palette.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DF223AD2974F13200A8CD00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DF223AF2974F13200A8CD00 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7DF223B12974F13200A8CD00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7DF223B42974F13200A8CD00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7DF223B62974F13400A8CD00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DF223B92974F13400A8CD00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DF223BB2974F13400A8CD00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7DF223C02974F13500A8CD00 /* PlaletteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaletteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DF223C02974F13500A8CD00 /* PaletteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaletteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DF223C42974F13500A8CD00 /* PlaletteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaletteTests.swift; sourceTree = "<group>"; };
-		7DF223CA2974F13500A8CD00 /* PlaletteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaletteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DF223CA2974F13500A8CD00 /* PaletteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaletteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DF223CE2974F13500A8CD00 /* PlaletteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaletteUITests.swift; sourceTree = "<group>"; };
 		7DF223D02974F13500A8CD00 /* PlaletteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaletteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7DF223DD2974F89B00A8CD00 /* PaletteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteViewController.swift; sourceTree = "<group>"; };
+		7DF223DE2974F89B00A8CD00 /* PaletteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaletteViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +79,7 @@
 		7DF223A12974F13200A8CD00 = {
 			isa = PBXGroup;
 			children = (
-				7DF223AC2974F13200A8CD00 /* Plalette */,
+				7DF223AC2974F13200A8CD00 /* Palette */,
 				7DF223C32974F13500A8CD00 /* PlaletteTests */,
 				7DF223CD2974F13500A8CD00 /* PlaletteUITests */,
 				7DF223AB2974F13200A8CD00 /* Products */,
@@ -89,25 +89,25 @@
 		7DF223AB2974F13200A8CD00 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7DF223AA2974F13200A8CD00 /* Plalette.app */,
-				7DF223C02974F13500A8CD00 /* PlaletteTests.xctest */,
-				7DF223CA2974F13500A8CD00 /* PlaletteUITests.xctest */,
+				7DF223AA2974F13200A8CD00 /* Palette.app */,
+				7DF223C02974F13500A8CD00 /* PaletteTests.xctest */,
+				7DF223CA2974F13500A8CD00 /* PaletteUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7DF223AC2974F13200A8CD00 /* Plalette */ = {
+		7DF223AC2974F13200A8CD00 /* Palette */ = {
 			isa = PBXGroup;
 			children = (
 				7DF223AD2974F13200A8CD00 /* AppDelegate.swift */,
 				7DF223AF2974F13200A8CD00 /* SceneDelegate.swift */,
-				7DF223B12974F13200A8CD00 /* ViewController.swift */,
-				7DF223B32974F13200A8CD00 /* Main.storyboard */,
 				7DF223B62974F13400A8CD00 /* Assets.xcassets */,
 				7DF223B82974F13400A8CD00 /* LaunchScreen.storyboard */,
 				7DF223BB2974F13400A8CD00 /* Info.plist */,
+				7DF223DD2974F89B00A8CD00 /* PaletteViewController.swift */,
+				7DF223DE2974F89B00A8CD00 /* PaletteViewController.xib */,
 			);
-			path = Plalette;
+			path = Palette;
 			sourceTree = "<group>";
 		};
 		7DF223C32974F13500A8CD00 /* PlaletteTests */ = {
@@ -130,9 +130,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7DF223A92974F13200A8CD00 /* Plalette */ = {
+		7DF223A92974F13200A8CD00 /* Palette */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7DF223D42974F13500A8CD00 /* Build configuration list for PBXNativeTarget "Plalette" */;
+			buildConfigurationList = 7DF223D42974F13500A8CD00 /* Build configuration list for PBXNativeTarget "Palette" */;
 			buildPhases = (
 				7DF223A62974F13200A8CD00 /* Sources */,
 				7DF223A72974F13200A8CD00 /* Frameworks */,
@@ -142,14 +142,14 @@
 			);
 			dependencies = (
 			);
-			name = Plalette;
+			name = Palette;
 			productName = Plalette;
-			productReference = 7DF223AA2974F13200A8CD00 /* Plalette.app */;
+			productReference = 7DF223AA2974F13200A8CD00 /* Palette.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7DF223BF2974F13500A8CD00 /* PlaletteTests */ = {
+		7DF223BF2974F13500A8CD00 /* PaletteTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7DF223D72974F13500A8CD00 /* Build configuration list for PBXNativeTarget "PlaletteTests" */;
+			buildConfigurationList = 7DF223D72974F13500A8CD00 /* Build configuration list for PBXNativeTarget "PaletteTests" */;
 			buildPhases = (
 				7DF223BC2974F13500A8CD00 /* Sources */,
 				7DF223BD2974F13500A8CD00 /* Frameworks */,
@@ -160,14 +160,14 @@
 			dependencies = (
 				7DF223C22974F13500A8CD00 /* PBXTargetDependency */,
 			);
-			name = PlaletteTests;
+			name = PaletteTests;
 			productName = PlaletteTests;
-			productReference = 7DF223C02974F13500A8CD00 /* PlaletteTests.xctest */;
+			productReference = 7DF223C02974F13500A8CD00 /* PaletteTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7DF223C92974F13500A8CD00 /* PlaletteUITests */ = {
+		7DF223C92974F13500A8CD00 /* PaletteUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7DF223DA2974F13500A8CD00 /* Build configuration list for PBXNativeTarget "PlaletteUITests" */;
+			buildConfigurationList = 7DF223DA2974F13500A8CD00 /* Build configuration list for PBXNativeTarget "PaletteUITests" */;
 			buildPhases = (
 				7DF223C62974F13500A8CD00 /* Sources */,
 				7DF223C72974F13500A8CD00 /* Frameworks */,
@@ -178,9 +178,9 @@
 			dependencies = (
 				7DF223CC2974F13500A8CD00 /* PBXTargetDependency */,
 			);
-			name = PlaletteUITests;
+			name = PaletteUITests;
 			productName = PlaletteUITests;
-			productReference = 7DF223CA2974F13500A8CD00 /* PlaletteUITests.xctest */;
+			productReference = 7DF223CA2974F13500A8CD00 /* PaletteUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7DF223A52974F13200A8CD00 /* Build configuration list for PBXProject "Plalette" */;
+			buildConfigurationList = 7DF223A52974F13200A8CD00 /* Build configuration list for PBXProject "Palette" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +219,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7DF223A92974F13200A8CD00 /* Plalette */,
-				7DF223BF2974F13500A8CD00 /* PlaletteTests */,
-				7DF223C92974F13500A8CD00 /* PlaletteUITests */,
+				7DF223A92974F13200A8CD00 /* Palette */,
+				7DF223BF2974F13500A8CD00 /* PaletteTests */,
+				7DF223C92974F13500A8CD00 /* PaletteUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,8 +232,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DF223BA2974F13400A8CD00 /* LaunchScreen.storyboard in Resources */,
+				7DF223E02974F89B00A8CD00 /* PaletteViewController.xib in Resources */,
 				7DF223B72974F13400A8CD00 /* Assets.xcassets in Resources */,
-				7DF223B52974F13200A8CD00 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +258,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DF223B22974F13200A8CD00 /* ViewController.swift in Sources */,
 				7DF223AE2974F13200A8CD00 /* AppDelegate.swift in Sources */,
+				7DF223DF2974F89B00A8CD00 /* PaletteViewController.swift in Sources */,
 				7DF223B02974F13200A8CD00 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,25 +286,17 @@
 /* Begin PBXTargetDependency section */
 		7DF223C22974F13500A8CD00 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7DF223A92974F13200A8CD00 /* Plalette */;
+			target = 7DF223A92974F13200A8CD00 /* Palette */;
 			targetProxy = 7DF223C12974F13500A8CD00 /* PBXContainerItemProxy */;
 		};
 		7DF223CC2974F13500A8CD00 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7DF223A92974F13200A8CD00 /* Plalette */;
+			target = 7DF223A92974F13200A8CD00 /* Palette */;
 			targetProxy = 7DF223CB2974F13500A8CD00 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7DF223B32974F13200A8CD00 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7DF223B42974F13200A8CD00 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7DF223B82974F13400A8CD00 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -438,10 +430,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Plalette/Info.plist;
+				INFOPLIST_FILE = Palette/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.graphics-design";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -449,7 +441,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.AllenKuo.Plalette;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AllenKuo.Palette;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -465,10 +457,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Plalette/Info.plist;
+				INFOPLIST_FILE = Palette/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.graphics-design";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -476,7 +468,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.AllenKuo.Plalette;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AllenKuo.Palette;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -499,7 +491,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Plalette.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Plalette";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Palette.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Palette";
 			};
 			name = Debug;
 		};
@@ -518,7 +510,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Plalette.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Plalette";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Palette.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Palette";
 			};
 			name = Release;
 		};
@@ -559,7 +551,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7DF223A52974F13200A8CD00 /* Build configuration list for PBXProject "Plalette" */ = {
+		7DF223A52974F13200A8CD00 /* Build configuration list for PBXProject "Palette" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7DF223D22974F13500A8CD00 /* Debug */,
@@ -568,7 +560,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7DF223D42974F13500A8CD00 /* Build configuration list for PBXNativeTarget "Plalette" */ = {
+		7DF223D42974F13500A8CD00 /* Build configuration list for PBXNativeTarget "Palette" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7DF223D52974F13500A8CD00 /* Debug */,
@@ -577,7 +569,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7DF223D72974F13500A8CD00 /* Build configuration list for PBXNativeTarget "PlaletteTests" */ = {
+		7DF223D72974F13500A8CD00 /* Build configuration list for PBXNativeTarget "PaletteTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7DF223D82974F13500A8CD00 /* Debug */,
@@ -586,7 +578,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7DF223DA2974F13500A8CD00 /* Build configuration list for PBXNativeTarget "PlaletteUITests" */ = {
+		7DF223DA2974F13500A8CD00 /* Build configuration list for PBXNativeTarget "PaletteUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7DF223DB2974F13500A8CD00 /* Debug */,
