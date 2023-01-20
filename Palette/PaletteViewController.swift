@@ -55,7 +55,7 @@ class PaletteViewController: UIViewController {
     }
     
     
-    /// <#Description#>
+    /// Description
     /// - Parameters:
     ///   - textField: 要設定的TextField
     ///   - tag: textField的tag
@@ -65,7 +65,7 @@ class PaletteViewController: UIViewController {
         textField.text = (tag == 3) ? "1" : "0"
     }
     
-    /// <#Description#>
+    /// Description
     /// - Parameters:
     ///   - slider: 要設定的slider
     ///   - tag: slider的tag
@@ -88,7 +88,7 @@ class PaletteViewController: UIViewController {
         present(alertController,animated: true)
     }
     
-    /// <#Description#>
+    /// Description
     /// - Parameter sender: textField變化時
     @IBAction func txtFieldChanged(_ sender: UITextField) {
         guard let text = sender.text , !(text.isEmpty) else{
